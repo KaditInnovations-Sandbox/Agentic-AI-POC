@@ -1,0 +1,19 @@
+# Root .dockerignore
+.git
+.gitignore
+.adk/
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+frontend/
+node_modules/
+.next/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example

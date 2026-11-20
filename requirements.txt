@@ -1,0 +1,23 @@
+# Core Google Agent Development Kit (ADK) & Model SDK
+google-adk>=2.14.0
+google-adk[db]>=2.14.0
+google-genai>=2.30.0
+
+# Backend Web Framework & Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+pydantic>=2.10.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.12
+
+# Database Drivers & ORM
+SQLAlchemy>=2.0.25
+asyncpg>=0.30.0
+aiosqlite>=0.20.0
+
+# HTTP Client & Networking
+httpx>=0.28.0
+
+# Testing & Verification
+pytest>=8.0.0
+anyio>=4.8.0
